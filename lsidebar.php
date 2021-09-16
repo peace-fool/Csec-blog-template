@@ -31,11 +31,11 @@
           </ul>
           <h2 id="Wizard-Labs-Write-ups">
             <a href="#" class="headerlink" title="Wizard Labs Write-ups"></a>
-            Other Things
+            Active Boxes
           </h2>
           <ul>
-            <li><a href="#">One</a></li>
-            <li><a href="#">Two</a></li>
+            <li><a href="/login.php?box=One">One</a></li>
+            <li><a href="/login.php?box=Two">Two</a></li>
           </ul>
         </div>
       </div>

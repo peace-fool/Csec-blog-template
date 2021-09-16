@@ -704,3 +704,7 @@ img {
 .pagination .page-item .page-item-title {
   color: #3b4351;
 }
+
+#machine {
+  text-align: center;
+}
