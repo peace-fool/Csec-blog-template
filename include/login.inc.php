@@ -10,6 +10,6 @@ if(isset($_POST["submit"])){
     loginUser($conn, $boxName, $flag);
 }
 else{
-    header("location: ../index.php");
+    header("location: /index.php");
     exit();
 }

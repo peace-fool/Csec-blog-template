@@ -4,7 +4,7 @@ function uidExists($conn, $boxName){
     $sql = "SELECT * FROM box WHERE boxName = ?;";
     $stmt = mysqli_stmt_init($conn);
     if(!mysqli_stmt_prepare($stmt, $sql)){
-        header("location: ../login.php?error=statemantfailed");
+        header("location: /login.php?error=statemantfailed");
         exit();
     }
     
@@ -51,7 +51,7 @@ function loginUser($conn, $boxName, $flag){
             exit();
         }
         else{
-            header("location: ../activebox/$boxName.php");
+            header("location: /activebox/$boxName.php");
             exit();
         }
     }
@@ -61,7 +61,7 @@ function createUser($conn, $boxName, $password){
     $sql = "INSERT INTO box (boxName, boxFlag) VALUES (?,?);";
     $stmt = mysqli_stmt_init($conn);
     if(!mysqli_stmt_prepare($stmt, $sql)){
-        header("location: ../addactivebox.php?error=statemantfailed");
+        header("location: /addactivebox.php?error=statemantfailed");
         exit();
     }
     $hashedPwd = password_hash($password, PASSWORD_DEFAULT);
@@ -69,6 +69,6 @@ function createUser($conn, $boxName, $password){
     mysqli_stmt_bind_param($stmt, "ss", $boxName, $hashedPwd);
     mysqli_stmt_execute($stmt);
     mysqli_stmt_close($stmt);
-    header("location: ../addactivebox.php?error=none");
+    header("location: /addactivebox.php?error=none");
     exit();
 }
