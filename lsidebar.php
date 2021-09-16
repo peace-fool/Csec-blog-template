@@ -23,7 +23,7 @@
             Write-ups
           </h2>
           <ul>
-            <li><a href="#">One</a></li>
+            <li><a href="/htb/first.php">One</a></li>
             <li><a href="#">Two</a></li>
             <li><a href="#">Three</a></li>
             <li><a href="#">Four</a></li>
