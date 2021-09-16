@@ -1,6 +1,7 @@
-<?php include_once '/header.php';?> 
+<?php include_once '../header.php';?> 
 <?php
-if(!isset($_POST["submit"])){
+session_start();
+if($_SESSION["boxName"] != "One"){
     header("location: /index.php");
     exit();
 }
@@ -16,4 +17,4 @@ if(!isset($_POST["submit"])){
 <h1 id="third">third</h1>
 
 <!-- content end -->
-<?php include_once '/footer.php';?>            
+<?php include_once '../footer.php';?>            

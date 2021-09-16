@@ -1,8 +1,8 @@
-<?php include_once 'header.php';?> 
+<?php include_once '../header.php';?> 
 
 
 <div class="modal active modal-sm">
-    <a href="/index.php" class="modal-overlay" aria-label="Close"></a>
+    <a href="index.php" class="modal-overlay" aria-label="Close"></a>
     <div class="modal-container">
          <!-- modal structure here -->
         <div class="modal-header">
@@ -17,4 +17,4 @@
 
 
 <!-- content end -->
-<?php include_once '/footer.php';?>            
+<?php include_once '../footer.php';?>            

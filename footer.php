@@ -16,7 +16,7 @@
             <div class="book-comments"></div>
           </div>
        </div>
-       <?php include '/rsidebar.php';?>
+       <?php include 'rsidebar.php';?>
      </div>
    </div>
    <a class="off-canvas-overlay" onclick="hide_canvas()"></a>
