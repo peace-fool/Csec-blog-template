@@ -1,7 +1,17 @@
-<?php include_once 'header.php';?> 
+<?php include './header.php';?> 
 <!-- content start -->
-
-<?php include_once 'content.html';?>
-
+<h1>About Me</h1>
 <!-- content end -->
-<?php include_once 'footer.php';?>            
+</div>
+            <div class="book-comments"></div>
+          </div>
+       </div>
+       <?php include 'rsidebar.php';?>
+     </div>
+   </div>
+   <a class="off-canvas-overlay" onclick="hide_canvas()"></a>
+  </div>
+</body>
+</html>
+
+<script src="/js/book.js"></script>          
