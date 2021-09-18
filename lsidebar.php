@@ -24,7 +24,7 @@
           </h2>
           <ul>
             <li><a href="/htb/first.php">One</a></li>
-            <li><a href="/htb/two.php">Two</a></li>
+            <li><a href="#">Two</a></li>
             <li><a href="#">Three</a></li>
             <li><a href="#">Four</a></li>
             <li><a href="#">Five</a></li>
