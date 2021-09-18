@@ -18,7 +18,7 @@
             <form action='".setComment($conn)."' method='post'>
               <input type='hidden' name='box' value='$box'>
               <input type='hidden' name='uid' value='$rand_text'>
-              <textarea name='message' id='' cols='42' rows='2'></textarea>
+              <textarea name='message' id='' cols='40' rows='2'></textarea>
               <br>
               <button class='btn btn-primary btn-sm' type='submit' name='commentSubmit'>Comment</button>
             </form><br>";
