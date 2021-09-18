@@ -8,7 +8,18 @@
   <title>
     Blog
   </title>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XNK710ELQ9"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-XNK710ELQ9');
+  </script>
   <!-- Spectre.css framework -->
   <link rel="stylesheet" href="/css/spectre/spectre.min.css">
   <link rel="stylesheet" href="/css/spectre/spectre-exp.min.css">
