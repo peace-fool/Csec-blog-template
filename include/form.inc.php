@@ -4,7 +4,7 @@
               }
 </script>
 <?php
-            include '../include/comdbh.inc.php';
+            include '../include/dbh.inc.php';
             include '../comments.php';
             $file = '../names.txt';
             
