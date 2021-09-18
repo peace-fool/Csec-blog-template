@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
@@ -25,25 +26,25 @@
 <body>
   <div id="navbar" class="#">
     <div class="card topnav">
-       <div class="book-navbar">
-         <header class="navbar">
-           <section class="navbar-section">
-             <a onclick="open_sidebar()">
+      <div class="book-navbar">
+        <header class="navbar">
+          <section class="navbar-section">
+            <a onclick="open_sidebar()">
               <i class="icon icon-menu"></i>
-           </a>
-         </section>
+            </a>
+          </section>
         </header>
       </div>
-   </div>
+    </div>
   </div>
 
   <div class="book-container">
 
     <!-- left side bar -->
-    <?php include 'lsidebar.php';?>
+    <?php include 'lsidebar.php'; ?>
 
     <div class="off-canvas-content">
-       <div class="columns">
-         <div class="column col-8 col-lg-12">
+      <div class="columns">
+        <div class="column col-8 col-lg-12">
           <div class="book-content">
             <div class="book-post">

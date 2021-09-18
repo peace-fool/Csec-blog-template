@@ -13,7 +13,7 @@
         <div class="book-menu">
           <ul>
             <li><a href="/">Home</a></li>
-          </ul>      
+          </ul>
           <h1 id="Categories">
             <a href="#" class="headerlink" title="Categories"></a>
             Categories
@@ -43,4 +43,3 @@
   </div>
   <script src="/js/book-menu.js"></script>
 </div>
-  

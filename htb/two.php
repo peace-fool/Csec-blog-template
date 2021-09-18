@@ -1,7 +1,7 @@
 <?php include '../header.php';
-  session_start();
-  $_SESSION["boxId"] = "two";
-?> 
+session_start();
+$_SESSION["boxId"] = "two";
+?>
 <!-- Content -->
 <h1 id="hello">Hello There</h1>
 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo odio, veritatis molestias beatae ad quo velit quasi, dolore nostrum, recusandae modi quis accusamus suscipit quibusdam laborum quam. Iure laudantium odio adipisci at quibusdam. Natus laboriosam facere inventore tenetur nulla, doloremque assumenda illo ad ipsa incidunt sint, reiciendis repellendus sit officia?</p>
@@ -11,11 +11,21 @@
 <h2 id="third">Enumeration</h2>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam tempora praesentium ducimus, veritatis nostrum non amet expedita reiciendis! Officiis, unde.</p>
 <ul>
-  <li><p><b>-sC:</b> default scripts</p></li>
-  <li><p><b>-sV:</b> version detection</p></li>
-  <li><p><b>-A:</b> aggressive scan</p></li>
-  <li><p><b>-oA:</b> output all formats</p></li>
-  <li><p><b>-p:</b> scan a particular port</p></li>
+  <li>
+    <p><b>-sC:</b> default scripts</p>
+  </li>
+  <li>
+    <p><b>-sV:</b> version detection</p>
+  </li>
+  <li>
+    <p><b>-A:</b> aggressive scan</p>
+  </li>
+  <li>
+    <p><b>-oA:</b> output all formats</p>
+  </li>
+  <li>
+    <p><b>-p:</b> scan a particular port</p>
+  </li>
 </ul>
 <h2 id="sub">Gaining Initial Foothold</h2>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi maiores harum impedit blanditiis ad illum similique nulla perspiciatis eius molestias aliquid, excepturi eaque! Tenetur, id architecto. Ratione, eveniet unde. Quia quae recusandae voluptatibus minima hic eveniet, velit a ipsa quo incidunt? Molestias voluptate quis tempora tempore sed soluta, quam recusandae perferendis fugiat quidem! Asperiores libero necessitatibus porro explicabo deserunt nam, recusandae sequi vitae rem non iure corporis dolores vero velit officiis excepturi quibusdam soluta tenetur temporibus adipisci? Explicabo deleniti mollitia facere atque itaque quod animi, magnam natus pariatur ut esse error harum repellat illo modi sint odio, omnis dolor a?</p>
@@ -28,20 +38,20 @@
 
 <!-- Quotes -->
 <div class="text-justify">
-<div class="container quote-cont">
-  <div class="dashes"></div>
-  <div class="container quote">
-  <p><code>Something</code>&#160;Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo nihil voluptate iure eligendi dolorum nobis!</p>
-  <p><code>Anything</code>&#160;Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque id reiciendis nisi esse perferendis libero quo natus velit deserunt blanditiis?</p>
-</div>
-</div>
+  <div class="container quote-cont">
+    <div class="dashes"></div>
+    <div class="container quote">
+      <p><code>Something</code>&#160;Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo nihil voluptate iure eligendi dolorum nobis!</p>
+      <p><code>Anything</code>&#160;Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque id reiciendis nisi esse perferendis libero quo natus velit deserunt blanditiis?</p>
+    </div>
+  </div>
 </div>
 
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla et ea laborum nobis, quos voluptatem sequi at. Porro, aspernatur nesciunt.</p>
 
 <!-- Code Snippet -->
 <div class="card s-rounded code-card">
-  <div class="card-body" >
+  <div class="card-body">
     <pre class="code">Lorem ipsum dolor sit amet consectetur 
 adipisicing elit. Cumque, 
 officia? Nam amet inventore doloribus 
@@ -52,4 +62,4 @@ eaque pariatur?</pre>
 
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam ad sequi rem nostrum repellendus ea, dolore ducimus corrupti eius laborum!</p>
 
-<?php include '../footer.php';?>            
+<?php include '../footer.php'; ?>

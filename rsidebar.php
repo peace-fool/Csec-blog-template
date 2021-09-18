@@ -2,7 +2,7 @@
   <div class="book-post-info">
     <div class="book-post-meta">
       <div class="author">
-       <!-- Author image -->
+        <!-- Author image -->
         <div class="author-img">
           <figure class="avatar avatar-lg">
             <img src="/pp.png" alt="...">

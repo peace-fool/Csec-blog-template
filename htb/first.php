@@ -1,7 +1,7 @@
 <?php include '../header.php';
-    session_start();
-    $_SESSION["boxId"] = "first";
-?> 
+session_start();
+$_SESSION["boxId"] = "first";
+?>
 <!-- Content -->
 <h1 id="hello">Box Name</h1>
 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo odio, veritatis molestias beatae ad quo velit quasi, dolore nostrum, recusandae modi quis accusamus suscipit quibusdam laborum quam. Iure laudantium odio adipisci at quibusdam. Natus laboriosam facere inventore tenetur nulla, doloremque assumenda illo ad ipsa incidunt sint, reiciendis repellendus sit officia?</p>
@@ -13,4 +13,4 @@
 
 <!-- content end -->
 
-<?php include '../footer.php';?>         
+<?php include '../footer.php'; ?>

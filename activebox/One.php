@@ -1,7 +1,7 @@
-<?php include_once '../header.php';?> 
+<?php include_once '../header.php'; ?>
 <?php
 session_start();
-if($_SESSION["boxName"] != "One"){
+if ($_SESSION["boxName"] != "One") {
     header("location: /index.php");
     exit();
 }
@@ -18,4 +18,4 @@ if($_SESSION["boxName"] != "One"){
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, non eos illum libero earum atque animi accusantium iste et optio autem omnis minima dolore, perferendis ipsa consectetur placeat deleniti magni fuga aliquid nemo deserunt? Ratione nam quas veniam ipsum laboriosam vero itaque, debitis sed? Sint a omnis officia pariatur quaerat provident minima sequi distinctio laudantium recusandae, soluta quos vel, eligendi, corrupti vero consectetur quam! Fugit minus autem unde, nihil facilis ut. Sunt libero dicta quaerat voluptate quos, rem dignissimos eligendi facilis ut, maiores aspernatur quas eos minima numquam. Asperiores dolore doloribus quis, ducimus quod nihil voluptate iste aspernatur quam! Dolor.</p>
 
 <!-- content end -->
-<?php include_once '../footer.php';?>            
+<?php include_once '../footer.php'; ?>
